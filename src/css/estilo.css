@@ -11,6 +11,10 @@ body.dark-mode{
     color: #f5f5f5;
 }
 
+.dark-mode .card-pokemon{
+    background-color: #a8a8a8;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -61,10 +65,6 @@ main .card-pokemon{
 
 main .card-pokemon:hover{
     background-color: #96e9e6;
-}
-
-.dark-mode, .card-pokemon{
-    background-color: #a8a8a8;
 }
 
 main .card-pokemon .informations{
