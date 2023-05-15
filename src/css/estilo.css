@@ -83,11 +83,9 @@ main .card-pokemon .informations span{
 main .card-pokemon .gif{
     width: 70px;
     height: 70px;
-    background-color: gray;
 }
 
 main .card-pokemon .types{
-    background-color: white;
     display: flex;
     gap: 15px;
 }
@@ -98,6 +96,29 @@ main .card-pokemon .type{
 }
 
 /* ESTILIZANDO APENAS OS TIPOS DOS POKEMONS */
-.grama{
+.glass{
+    background-color: #7ac74c;
+}
 
+.poison{
+    background-color: #df67ddfb;
+}
+
+.fire{
+    background-color: #ee8130;
+}
+
+.water{
+    background-color: #6390f0;
+}
+
+.bug-bite{
+    background-color: #a6b91a;
+}
+
+main .description{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
 }
