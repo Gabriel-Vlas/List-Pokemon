@@ -24,14 +24,14 @@ buttonAlterTheme.addEventListener("click", () => {
         //body.classList.remove("dark-mode");
 
         // trocar imagem do botão para sol
-        imgButtonAlterTheme.setAttribute("src", "./imagens/sun.png")
+        imgButtonAlterTheme.setAttribute("src", "./src/imagens/sun.png")
 
     } else {
         //passo 4 - adicionar classo dark-mode no body
         //body.classList.add("dark-mode")
 
         //passo 5 - trocar botão de alterar tema para Lua
-        imgButtonAlterTheme.setAttribute("src", "./imagens/moon.png")
+        imgButtonAlterTheme.setAttribute("src", "./src/imagens/moon.png")
 
     }
 })
